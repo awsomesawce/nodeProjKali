@@ -8,7 +8,7 @@ verboseEcho() {
 
 defaultApp() {
     if command -v node > /dev/null; then
-	node -r dotenv/config octokitNew.mjs
+	    node -r dotenv/config octokitNew.mjs
     fi
 }
 
